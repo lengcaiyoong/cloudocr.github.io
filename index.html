@@ -24,7 +24,7 @@
                 };
                 
                 // Call Cloud Vision API for OCR
-                fetch('https://vision.googleapis.com/v1/images:annotate?key=YOUR_CLOUD_VISION_API_KEY', {
+                fetch('https://vision.googleapis.com/v1/images:annotate?key=AIzaSyB0vF4wGaahjal3Sivgoyn1iwBgwG90eDs', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -39,7 +39,7 @@
                     fetch('https://api.openai.com/v1/engines/davinci-codex/completions', {
                         method: 'POST',
                         headers: {
-                            'Authorization': 'Bearer YOUR_OPENAI_API_KEY',
+                            'Authorization': 'Bearer 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',
                             'Content-Type': 'application/json'
                         },
                         body: JSON.stringify({
